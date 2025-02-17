@@ -35,5 +35,6 @@ app.get("/ig/:username", (req, res) => {
     res.render("instagram.ejs", { data });
   } else {
     res.render("errors.ejs");
+    res.render("")
   }
 });
